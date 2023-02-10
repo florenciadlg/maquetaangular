@@ -1,0 +1,38 @@
+
+
+  
+.nav-color{
+    background-color: white;
+}
+
+.items-navbar{
+    position: absolute;
+    right: 3%;
+}
+
+.candado{
+    background-color: transparent;
+    border: none !important;
+    color: rgba(128, 128, 128, 0.411) !important;
+    margin-left: 1rem;
+    margin-right: 1rem;
+ }
+
+.nav-link{
+    color: rgb(108, 96, 110) !important
+}
+
+.candado3{
+    background-color: transparent;
+    border: none !important;
+    color: rgba(39, 36, 36, 0.653) !important;
+ }
+
+ 
+ /* VENTANA MODAL DE LOGIN */
+
+ .login-boton{
+    background-color: rgb(135, 71, 135) !important;
+   color:aliceblue !important;
+   border: none !important;
+}

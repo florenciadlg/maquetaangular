@@ -1,0 +1,147 @@
+{
+"banner": "../img/banner5.png",
+"bienvenida": "Hola, soy Florencia",
+"profesion": "Desarrolladora Web Full Stack Jr.",
+"curriculum": "",
+
+"redes": [
+{
+    "id": 1,
+    "icono": "fa-github",
+    "link": "https://github.com/florenciadlg"
+},
+{
+    "id": 2,
+    "icono": "",
+    "link": ""
+}
+],
+
+"fotoperfil": "../img/foto-perfil-cuadrada.jpg",
+"presentacion": "¡Hola! Soy Florencia, Licenciada en Comercialización, incursionando en el área de Desarrollo Web desde 2022. Gracias a mi formación profesional y académica puedo garantizar que mi prioridad es siempre la búsqueda de soluciones para lograr la satisfacción del cliente.",
+
+"idiomas": [
+    {
+        "id": 1,
+        "idioma": "Inglés",
+        "nivel": "Intermedio"
+    },
+    {
+        "id": 2,
+        "idioma": "Español",
+        "nivel": "Nativo"
+    }
+    ],
+
+"fortalezas": [
+    {
+        "id": 1,
+        "fortaleza": "Resolutiva"
+    },
+    {
+        "id": 2,
+        "fortaleza": "Trabajo en Equipo"
+    },
+    {
+        "id": 3,
+        "fortaleza": "Eficiente Administración del Tiempo"
+    },
+    {
+        "id": 4,
+        "fortaleza": "Habilidades de Comunicación Efectiva"
+    },
+    {
+        "id": 5,
+        "fortaleza": "Foco en el Cliente"
+    }
+    ],
+
+"habilidades": [
+    {
+        "id": 1,
+        "habilidad": "HTML5",
+        "porcentaje": 50
+    },
+    {
+        "id": 2,
+        "habilidad": "CSS3",
+        "porcentaje": 30
+    },
+    {
+        "id": 3,
+        "habilidad": "JAVASCRIPT",
+        "porcentaje": 30
+    },
+    {
+        "id": 4,
+        "habilidad": "ANGULAR",
+        "porcentaje": 30
+    }
+    ],
+
+"proyectos": [
+    {
+        "id": 1,
+        "imagen": "../img/proyecto.jpg",
+        "titulo": "Portfolio Web (2022)",
+        "descripcion": "Desarrollo de aplicación web full stack con username y password para acceder a la edición del contenido usando HTML5, CSS3 y Bootstrap.",
+        "enlace": ""
+    },
+    {
+        "id": 2,
+        "imagen": "",
+        "titulo": "",
+        "descripcion": "",
+        "enlace": ""
+    }
+    ],
+
+"experiencialaboral": [
+    {
+        "id": 1,
+        "logo": "../img/beiersdorf1.png",
+        "empresa": "Beiersdorf S.A.",
+        "puesto": "Order Management Senior Analyst (2015-2016)"
+    },
+    {
+        "id": 2,
+        "logo": "../img/philips1.png",
+        "empresa": "Philips Argentina S.A.",
+        "puesto": "Customer Support for South Latam (2013-2015)"
+    },
+    {
+        "id": 3,
+        "logo": "../img/nextel1.png",
+        "empresa": "Nextel Communications Argentina",
+        "puesto": "Analista de Back Office (Pasantía Profesional 2012)"
+    }
+    ],
+
+"educacion": [
+    {
+        "id": 1,
+        "logo": "../img/inti.png",
+        "institucion": "Argentina Programa",
+        "titulo": "Desarrollo Web Full Stack (A finalizar en 2023)"
+    },
+    {
+        "id": 2,
+        "logo": "../img/uade.png",
+        "institucion": "Universidad Argentina de la Empresa (UADE)",
+        "titulo": "Licenciatura en Comercialización (Graduada en 2011)"
+    }
+    ],
+
+"nombrecompleto": "Florencia Pía",
+"email": "florencia.pia@outlook.com",
+"telefono": "+54 11 1234-0000",
+"ubicacion": "Buenos Aires, Argentina",
+"whatsapplink": "https://api.whatsapp.com/send/?phone=5491124002409&text&type=phone_number&app_absent=0",
+"telegramlink": "",
+"messengerlink": ""
+
+}
+
+
+
+

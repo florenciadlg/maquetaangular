@@ -1,0 +1,36 @@
+
+section.banner{
+    background-image: url(./../../../../assets/img/banner5.png);
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;  
+}
+
+.intro-banner{
+    position: absolute;
+    text-align: center;
+    padding-top: 12%;
+    padding-left: 12%;
+}
+
+.bienvenida-banner{
+    text-shadow: -1px 0 white, 0 1px white,
+    1px 0 white, 0 -1px white;
+}
+
+.boton-banner { 
+    background-color: rgb(237, 230, 240) !important; 
+    border: none;
+    margin-right: 1rem;
+    margin-top: 1rem;
+ }
+
+ .boton-banner:hover {
+    background-color: rgb(204, 163, 221) !important;
+ }

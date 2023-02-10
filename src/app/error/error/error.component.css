@@ -1,0 +1,24 @@
+.error { 
+    color: rgb(181, 65, 162);
+    font-size: 15rem;
+}
+
+.texterror1 {
+    color: rgb(114, 106, 96);
+    position: relative;
+}
+
+.texterror2 {
+    color: rgb(124, 122, 120);
+}
+
+.link-error{
+    color: rgb(86, 49, 120);
+    text-decoration: none;
+}
+
+*{
+    box-sizing:content-box;
+}
+
+

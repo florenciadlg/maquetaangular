@@ -1,0 +1,10 @@
+
+.redes{
+    color:rgb(178, 133, 221);  
+}
+
+.redes:hover {
+    color: rgb(148, 116, 142) ;
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.2);
+ }

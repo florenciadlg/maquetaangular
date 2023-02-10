@@ -1,0 +1,12 @@
+
+.foto-perfil{
+    width: 13rem;
+}
+
+.satisfaccion{
+    font-size: medium;
+}
+
+section[id] {
+    scroll-margin-top: 6rem;
+  }

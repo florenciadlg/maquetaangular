@@ -1,0 +1,43 @@
+
+<header> 
+    <nav class="navbar navbar-expand-lg fixed-top nav-color2">
+        <div class="container-fluid">
+          <img src="/assets/img/arg-programa.png" alt="logo argentina programa" height="50rem">
+
+          <!-- Item Login -->
+          <div class="items-navbar d-none d-lg-block">
+            <i class="fa-solid fa-lock-open candado2"></i>
+           </div>
+
+           <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end d-block d-lg-none" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <div class="nav flex-column nav-pills me-5" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+
+                <button class="nav-link active" id="v-pills-presentacion-tab" data-bs-toggle="pill" data-bs-target="#v-pills-presentacion" type="button" role="tab" aria-controls="v-pills-presentacion" aria-selected="true">Presentación</button>
+    
+                <button class="nav-link" id="v-pills-social-tab" data-bs-toggle="pill" data-bs-target="#v-pills-social" type="button" role="tab" aria-controls="v-pills-social" aria-selected="false">Redes Sociales</button>
+    
+                <button class="nav-link" id="v-pills-about-tab" data-bs-toggle="pill" data-bs-target="#v-pills-about" type="button" role="tab" aria-controls="v-pills-about" aria-selected="false">Sobre mí</button>
+    
+                <button class="nav-link" id="v-pills-proyectos-tab" data-bs-toggle="pill" data-bs-target="#v-pills-proyectos" type="button" role="tab" aria-controls="v-pills-proyectos" aria-selected="false">Proyectos</button>
+    
+                <button class="nav-link" id="v-pills-aprendizaje-tab" data-bs-toggle="pill" data-bs-target="#v-pills-aprendizaje" type="button" role="tab" aria-controls="v-pills-aprendizaje" aria-selected="false">Aprendizaje</button>
+    
+                <button class="nav-link" id="v-pills-contacto-tab" data-bs-toggle="pill" data-bs-target="#v-pills-contacto" type="button" role="tab" aria-controls="v-pills-contacto" aria-selected="false">Contacto</button>
+                <br>
+                <br>
+                <a routerLink="/inicio" class="logout text-center"><i class="fa-solid fa-right-from-bracket pt-5 logout"></i> Salir del Editor</a>
+                <p class="text-center"><small><i class="fa-solid fa-circle-exclamation"></i> Recuerda guardar los cambios</small></p>
+              </div>        
+            </div>
+          </div>
+        </div>
+    </nav>
+</header>

@@ -1,0 +1,63 @@
+
+<div class="container-fluid pt-5 mt-5">
+    <div class="row">
+      <div class="col-3 d-none d-lg-block">
+        <!-- MENÚ TAB -->
+        <div class="d-flex align-items-start ">
+          <div class="nav flex-column position-fixed nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+
+            <button class="nav-link active" id="v-pills-presentacion-tab" data-bs-toggle="pill" data-bs-target="#v-pills-presentacion" type="button" role="tab" aria-controls="v-pills-presentacion" aria-selected="true">Presentación</button>
+
+            <button class="nav-link" id="v-pills-social-tab" data-bs-toggle="pill" data-bs-target="#v-pills-social" type="button" role="tab" aria-controls="v-pills-social" aria-selected="false">Redes Sociales</button>
+
+            <button class="nav-link" id="v-pills-about-tab" data-bs-toggle="pill" data-bs-target="#v-pills-about" type="button" role="tab" aria-controls="v-pills-about" aria-selected="false">Sobre mí</button>
+
+            <button class="nav-link" id="v-pills-proyectos-tab" data-bs-toggle="pill" data-bs-target="#v-pills-proyectos" type="button" role="tab" aria-controls="v-pills-proyectos" aria-selected="false">Proyectos</button>
+
+            <button class="nav-link" id="v-pills-aprendizaje-tab" data-bs-toggle="pill" data-bs-target="#v-pills-aprendizaje" type="button" role="tab" aria-controls="v-pills-aprendizaje" aria-selected="false">Aprendizaje</button>
+
+            <button class="nav-link" id="v-pills-contacto-tab" data-bs-toggle="pill" data-bs-target="#v-pills-contacto" type="button" role="tab" aria-controls="v-pills-contacto" aria-selected="false">Contacto</button>
+            <br>
+            <br>
+            <a routerLink="/" class="logout text-center"><i class="fa-solid fa-right-from-bracket pt-5 logout"></i> Salir del Editor</a>
+            <p class="text-center"><small><i class="fa-solid fa-circle-exclamation"></i> Recuerda guardar los cambios</small></p>
+          </div>          
+        </div>
+      </div>
+      <div class="col-auto">
+         <!-- CONTENIDO DE CADA TAB -->
+         <div class="tab-content ms-4 pt-3 pb-5" id="v-pills-tabContent">
+
+             <!-- TAB DE PRESENTACIÓN /BANNER/ -->
+          <div class="tab-pane fade show active" id="v-pills-presentacion" role="tabpanel" aria-labelledby="v-pills-presentacion-tab" tabindex="0">
+         <app-presentacion></app-presentacion>
+        </div>   
+
+          <!-- TAB DE REDES SOCIALES -->
+          <div class="tab-pane fade" id="v-pills-social" role="tabpanel" aria-labelledby="v-pills-social-tab" tabindex="0">
+           <app-redestab></app-redestab>
+          </div>
+
+          <!-- TAB SOBRE MÍ -->
+          <div class="tab-pane fade" id="v-pills-about" role="tabpanel" aria-labelledby="v-pills-about-tab" tabindex="0">
+            <app-sobremitab></app-sobremitab>
+          </div>
+
+           <!-- TAB DE PROYECTOS -->
+          <div class="tab-pane fade" id="v-pills-proyectos" role="tabpanel" aria-labelledby="v-pills-proyectos-tab" tabindex="0">
+            <app-proyectostab></app-proyectostab>
+          </div>
+
+         <!-- TAB APRENDIZAJE -->
+          <div class="tab-pane fade" id="v-pills-aprendizaje" role="tabpanel" aria-labelledby="v-pills-aprendizaje-tab" tabindex="0">
+            <app-aprendizajetab></app-aprendizajetab>
+          </div>
+
+          <!-- TAB DE CONTACTO -->
+          <div class="tab-pane fade" id="v-pills-contacto" role="tabpanel" aria-labelledby="v-pills-contacto-tab" tabindex="0">
+        <app-contactotab></app-contactotab>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>

@@ -1,1 +1,22 @@
-/* You can add global styles to this file, and also import other style files */
+
+a:hover {
+    color: black !important;
+}
+
+.navbar{
+    --bs-navbar-toggler-border-color: transparent!important;
+    --bs-navbar-toggler-focus-width:0rem !important;
+}
+
+.logout{
+    color: rgb(103, 65, 103);
+    text-decoration: none
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    --bs-nav-pills-link-active-bg: rgba(203, 140, 203, 0.449);
+}
+
+.nav-link{
+    color: rgb(108, 96, 110) !important
+}
