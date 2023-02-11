@@ -8,7 +8,7 @@ import { DatosService } from 'src/app/servicios/datos.service';
 })
 export class SobremiComponent implements OnInit {
 
-  // fotoperfil: no sé cómo poner que es foto
+  // fotoperfil: image;
   presentacion: string = '';
 
   constructor(private datos: DatosService) {}

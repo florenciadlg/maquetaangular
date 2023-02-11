@@ -5,9 +5,8 @@ import { InicioComponent } from './inicio/page/inicio/inicio.component';
 import { PanelComponent } from './panel/page/panel/panel.component';
 
 const routes: Routes = [
-  {path: 'home', component:InicioComponent},
+  {path: '', component:InicioComponent},
   {path: 'admin', component:PanelComponent},
-  {path: '', redirectTo: '/home', pathMatch: 'full'},
   {path: '**', component: ErrorComponent}
 ];
 

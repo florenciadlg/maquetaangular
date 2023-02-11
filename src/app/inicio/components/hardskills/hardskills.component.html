@@ -1,20 +1,8 @@
 
- <h6>HTML5 <i class="fa-brands fa-html5"></i></h6>
+ <div *ngFor="let habilidad of habilidades">
+ <h6>{{habilidad.habilidad}}</h6>
  <div class="progress">
-    <div class="progress-bar bg-warning" role="progressbar" aria-label="Basic example" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+    <div class="progress-bar bg-warning" role="progressbar" aria-label="Basic example" style="width:50%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
  </div>
  <br>
- <h6>CSS3 <i class="fa-brands fa-css3-alt"></i></h6>
- <div class="progress">
-    <div class="progress-bar bg-warning" role="progressbar" aria-label="Basic example" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
- </div>
- <br>
- <h6>JAVASCRIPT <i class="fa-brands fa-square-js"></i></h6>
- <div class="progress">
-    <div class="progress-bar bg-warning" role="progressbar" aria-label="Basic example" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
- </div>
- <br>
- <h6>ANGULAR <i class="fa-brands fa-angular"></i></h6>
- <div class="progress">
-    <div class="progress-bar bg-warning" role="progressbar" aria-label="Basic example" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
- </div> 
+</div>

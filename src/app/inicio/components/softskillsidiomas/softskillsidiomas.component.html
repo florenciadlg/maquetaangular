@@ -1,18 +1,12 @@
 
-<h6><i class="fa-solid fa-lightbulb"></i> Resolutiva</h6>
+<div *ngFor="let fortaleza of fortalezas">
+<h6><i class="fa-solid fa-caret-right"></i> {{fortaleza.fortaleza}}</h6>
 <br>
-<h6><i class="fa-solid fa-people-group"></i> Trabajo en Equipo</h6>
-<br>
-<h6><i class="fa-solid fa-clock"></i> Eficiente Administración del Tiempo</h6>
-<br>
-<h6><i class="fa-solid fa-comments"></i> Habilidades de Comunicación Efectiva</h6>
-<br>
-<h6><i class="fa-solid fa-face-smile-beam"></i> Foco en el Cliente</h6>
-
-<br><br> 
+</div>
+<br><br>  
 
 <!-- IDIOMAS -->
-<h6>Inglés</h6>
-<p><em>Intermedio</em></p>
-<h6>Español</h6>
-<p><em>Nativo</em></p>
+<div *ngFor="let idioma of idiomas">
+<h6>{{idioma.idioma}}</h6>
+<p><em>{{idioma.nivel}}</em></p>
+</div>

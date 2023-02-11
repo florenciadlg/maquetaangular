@@ -1,8 +1,9 @@
 
+
 <h6 class="lead">Experiencia Educativa</h6>
 <br>
-<img src="assets/img/inti.png" alt="inti logo" class="ps-3 pe-3"><h6>Argentina Programa</h6>
-<p><em>Desarrollo Web Full Stack (A finalizar en 2023)</em></p>
-<br>
-<img src="assets/img/uade.png" alt="uade logo"><h6>Universidad Argentina de la Empresa (UADE)</h6>
-<p><em>Licenciatura en Comercialización (Graduada en 2011)</em></p>
+<div *ngFor="let experiencia of educacion">
+<img [src]="experiencia.logo" class="ps-3 pe-3"><h6>{{experiencia.institucion}}</h6>
+<p><em>{{experiencia.titulo}}</em></p>
+<br> 
+</div>

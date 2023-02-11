@@ -7,13 +7,7 @@
 "redes": [
 {
     "id": 1,
-    "icono": "fa-github",
     "link": "https://github.com/florenciadlg"
-},
-{
-    "id": 2,
-    "icono": "",
-    "link": ""
 }
 ],
 
@@ -32,7 +26,7 @@
         "nivel": "Nativo"
     }
     ],
-
+ 
 "fortalezas": [
     {
         "id": 1,
@@ -82,16 +76,16 @@
 "proyectos": [
     {
         "id": 1,
-        "imagen": "../img/proyecto.jpg",
+        "imagen": "../../../assets/img/proyecto.jpg",
         "titulo": "Portfolio Web (2022)",
         "descripcion": "Desarrollo de aplicación web full stack con username y password para acceder a la edición del contenido usando HTML5, CSS3 y Bootstrap.",
         "enlace": ""
     },
     {
         "id": 2,
-        "imagen": "",
-        "titulo": "",
-        "descripcion": "",
+        "imagen": "../../../assets/img/proyecto2.png",
+        "titulo": "Portfolio Angular (2023)",
+        "descripcion": "Desarrollo de aplicación web full stack con username y password para acceder a la edición del contenido usando HTML5, CSS3, Bootstrap y Angular.",
         "enlace": ""
     }
     ],
@@ -99,19 +93,19 @@
 "experiencialaboral": [
     {
         "id": 1,
-        "logo": "../img/beiersdorf1.png",
+        "logo": "../../../assets/img/beiersdorf1.png",
         "empresa": "Beiersdorf S.A.",
         "puesto": "Order Management Senior Analyst (2015-2016)"
     },
     {
         "id": 2,
-        "logo": "../img/philips1.png",
+        "logo": "../../../assets/img/philips1.png",
         "empresa": "Philips Argentina S.A.",
         "puesto": "Customer Support for South Latam (2013-2015)"
     },
     {
         "id": 3,
-        "logo": "../img/nextel1.png",
+        "logo": "../../../assets/img/nextel1.png",
         "empresa": "Nextel Communications Argentina",
         "puesto": "Analista de Back Office (Pasantía Profesional 2012)"
     }
@@ -120,13 +114,13 @@
 "educacion": [
     {
         "id": 1,
-        "logo": "../img/inti.png",
+        "logo": "../../../assets/img/inti.png",
         "institucion": "Argentina Programa",
         "titulo": "Desarrollo Web Full Stack (A finalizar en 2023)"
     },
     {
         "id": 2,
-        "logo": "../img/uade.png",
+        "logo": "../../../assets/img/uade.png",
         "institucion": "Universidad Argentina de la Empresa (UADE)",
         "titulo": "Licenciatura en Comercialización (Graduada en 2011)"
     }
