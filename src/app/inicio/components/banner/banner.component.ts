@@ -8,15 +8,15 @@ import { DatosService } from 'src/app/servicios/datos.service';
 })
 export class BannerComponent implements OnInit {
 
-  // banner: no sé cómo se pone que es dato de img y cómo va pipes en css
+  banner: any;
   bienvenida: string = '';
   profesion: string = '';
-  // curriculum: no sé cómo se pone que es archivo descargable y cómo va pipes
-
+ 
   constructor(private datos: DatosService) {}
 
   ngOnInit(): void {
     this.datos.leerDatos().subscribe(data => {
+      this.banner = data.banner;
       this.bienvenida = data.bienvenida;
       this.profesion = data.profesion;
   })

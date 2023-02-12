@@ -12,3 +12,8 @@
 section[id] {
     scroll-margin-top: 6rem;
   }
+
+  .enlaceproy {
+    color: rgb(86, 49, 120);
+    text-decoration: none;
+  }

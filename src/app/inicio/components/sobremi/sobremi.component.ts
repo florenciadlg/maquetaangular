@@ -8,14 +8,14 @@ import { DatosService } from 'src/app/servicios/datos.service';
 })
 export class SobremiComponent implements OnInit {
 
-  // fotoperfil: image;
+  fotoperfil: any;
   presentacion: string = '';
 
   constructor(private datos: DatosService) {}
 
   ngOnInit(): void {
     this.datos.leerDatos().subscribe(data => {
-      // this.fotoperfil = data.fotoperfil;
+      this.fotoperfil = data.fotoperfil;
       this.presentacion = data.presentacion;
   })
 }
