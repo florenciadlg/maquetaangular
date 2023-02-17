@@ -1,6 +1,4 @@
 {
-"bienvenida": "Hola, soy Florencia",
-"profesion": "Desarrolladora Web Full Stack Jr.",
 
 "redes": [
 {
@@ -125,10 +123,13 @@
     }
     ], 
 
-"nombrecompleto": "Florencia Pía",
+"nombre": "Florencia",
+"apellido": "Pía",
+"profesion": "Desarrolladora Web Full Stack Jr.",
 "email": "florencia.pia@outlook.com",
 "telefono": "+54 11 1234-0000",
-"ubicacion": "Buenos Aires, Argentina",
+"ciudad": "Buenos Aires",
+"pais": "Argentina",
 "whatsapplink": "https://api.whatsapp.com/send/?phone=5491124002409&text&type=phone_number&app_absent=0",
 "telegramlink": "",
 "messengerlink": ""

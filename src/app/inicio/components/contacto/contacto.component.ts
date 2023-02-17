@@ -8,20 +8,24 @@ import { DatosService } from 'src/app/servicios/datos.service';
 })
 export class ContactoComponent implements OnInit {
 
-  nombrecompleto: string = '';
+  nombre: string = '';
+  apellido: string = '';
   email: string = '';
   telefono: string = ''; 
-  ubicacion: string = '';
+  ciudad: string = '';
+  pais: string = '';
   whatsapplink: string = '';
 
   constructor(private datos: DatosService) {}
 
   ngOnInit(): void {
     this.datos.leerDatos().subscribe(data => {
-      this.nombrecompleto = data.nombrecompleto;
+      this.nombre = data.nombre;
+      this.apellido = data.apellido;
       this.email = data.email;
       this.telefono = data.telefono;
-      this.ubicacion = data.ubicacion;
+      this.ciudad = data.ciudad;
+      this.pais = data.pais;
       this.whatsapplink = data.whatsapplink;
   })
 }

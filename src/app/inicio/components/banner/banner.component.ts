@@ -9,7 +9,7 @@ import { DatosService } from 'src/app/servicios/datos.service';
 export class BannerComponent implements OnInit {
 
   banner: any;
-  bienvenida: string = '';
+  nombre: string = '';
   profesion: string = '';
  
   constructor(private datos: DatosService) {}
@@ -17,7 +17,7 @@ export class BannerComponent implements OnInit {
   ngOnInit(): void {
     this.datos.leerDatos().subscribe(data => {
       this.banner = data.banner;
-      this.bienvenida = data.bienvenida;
+      this.nombre = data.nombre;
       this.profesion = data.profesion;
   })
 }
