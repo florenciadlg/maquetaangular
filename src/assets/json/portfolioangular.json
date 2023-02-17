@@ -1,5 +1,9 @@
 {
 
+"fotoperfil": "../../assets/img/foto-perfil-cuadrada.jpg",
+
+"presentacion": "¡Hola! Soy Florencia, Licenciada en Comercialización, incursionando en el área de Desarrollo Web desde 2022. Gracias a mi formación profesional y académica puedo garantizar que mi prioridad es siempre la búsqueda de soluciones para lograr la satisfacción del cliente.",
+
 "redes": [
 {
     "id": 1,
@@ -7,9 +11,6 @@
     "logo": "fa-brands fa-github fa-2x redes"
 }
 ],
-
-"fotoperfil": "../../assets/img/foto-perfil-cuadrada.jpg",
-"presentacion": "¡Hola! Soy Florencia, Licenciada en Comercialización, incursionando en el área de Desarrollo Web desde 2022. Gracias a mi formación profesional y académica puedo garantizar que mi prioridad es siempre la búsqueda de soluciones para lograr la satisfacción del cliente.",
 
 "idiomas": [
     {
