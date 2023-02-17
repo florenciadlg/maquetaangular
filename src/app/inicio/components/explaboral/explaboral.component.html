@@ -3,6 +3,6 @@
 <br>
 <div *ngFor="let trabajo of experiencialaboral">
 <img [src]="trabajo.logo"><h6>{{trabajo.empresa}}</h6>
-<p><em>{{trabajo.puesto}}</em></p>
+<p><em>{{trabajo.puesto}} ({{trabajo.anio_inicio}}-{{trabajo.anio_fin}})</em></p>
 <br>
 </div>
