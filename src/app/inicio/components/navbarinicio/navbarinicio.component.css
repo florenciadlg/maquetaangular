@@ -27,12 +27,3 @@
     border: none !important;
     color: rgba(39, 36, 36, 0.653) !important;
  }
-
- 
- /* VENTANA MODAL DE LOGIN */
-
- .login-boton{
-    background-color: rgb(135, 71, 135) !important;
-   color:aliceblue !important;
-   border: none !important;
-}
